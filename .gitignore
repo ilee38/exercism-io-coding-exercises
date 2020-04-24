@@ -1,5 +1,4 @@
 __pycache__
 .exercism
 .pytest_cache
-README.md
 *.pyc
