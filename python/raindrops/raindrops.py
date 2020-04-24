@@ -6,6 +6,4 @@ def convert(number):
       result += "Plang"
     if number%7 == 0:
       result += "Plong"
-    if result == "":
-      result = str(number)
-    return result
+    return str(number) if result == "" else result
