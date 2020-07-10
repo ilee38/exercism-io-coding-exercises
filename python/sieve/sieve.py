@@ -2,7 +2,6 @@ def primes(limit):
     if limit < 2:
         return []
 
-    prime_list = []
     test_list = bytearray([1]*(limit+1))
     length = len(test_list)
 
@@ -13,7 +12,5 @@ def primes(limit):
             else:
                 break
 
-    for k in range(2, length):
-        if test_list[k]:
-            prime_list.append(k)
+    prime_list = [k for k in range(2,length) if test_list[k]]
     return prime_list
