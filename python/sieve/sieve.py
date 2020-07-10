@@ -6,11 +6,12 @@ def primes(limit):
     length = len(test_list)
 
     for i in range(2, length):
-        for j in range(2, length):
-            if i*j < length:
-                test_list[i*j] = 0
-            else:
-                break
+        if test_list[i] == 1:
+            for j in range(i, length):
+                if i*j < length:
+                    test_list[i*j] = 0
+                else:
+                    break
 
     prime_list = [k for k in range(2,length) if test_list[k]]
     return prime_list
