@@ -2,3 +2,5 @@ __pycache__
 .exercism
 .pytest_cache
 *.pyc
+*.swp
+*.swo
