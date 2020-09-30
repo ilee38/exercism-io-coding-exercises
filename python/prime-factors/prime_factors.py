@@ -16,9 +16,9 @@ def is_prime(n):
     ''' Primality check using the sieve of Erathostenes
     '''
     primes = bytearray([1]*(n+1))
-    for i in range(2, n):
+    for i in range(2, len(primes)):
         if primes[i]:
-            for j in range(i, n):
+            for j in range(i, len(primes)):
                 if i*j < n:
                     primes[i*j] = 0
                 else:
