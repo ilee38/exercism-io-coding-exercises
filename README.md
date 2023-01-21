@@ -1,2 +1,5 @@
-# [exercism.io](https://exercism.io) Python Track
-This repository contains my implementations for the coding exercises in the python track in  [exercism.io](https://exercism.io)
+# [exercism.io](https://exercism.io) Coding Exercises
+This repository contains my implementations for the coding exercises track in  [exercism.io](https://exercism.io).
+Current language tracks:
+- C#
+- Python 3
