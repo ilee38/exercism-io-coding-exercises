@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracksOnTracksOnTracks", "TracksOnTracksOnTracks.csproj", "{1E70AA4D-13E3-440E-9716-9E6258E52706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E70AA4D-13E3-440E-9716-9E6258E52706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E70AA4D-13E3-440E-9716-9E6258E52706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E70AA4D-13E3-440E-9716-9E6258E52706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E70AA4D-13E3-440E-9716-9E6258E52706}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F06D3F42-B70A-4E45-AC91-F486BD3AEBBE}
+	EndGlobalSection
+EndGlobal

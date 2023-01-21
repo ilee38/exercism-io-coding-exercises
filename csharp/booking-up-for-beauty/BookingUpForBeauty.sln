@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingUpForBeauty", "BookingUpForBeauty.csproj", "{09FF3A23-0984-41EB-8240-AF09A0258370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09FF3A23-0984-41EB-8240-AF09A0258370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FF3A23-0984-41EB-8240-AF09A0258370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FF3A23-0984-41EB-8240-AF09A0258370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FF3A23-0984-41EB-8240-AF09A0258370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AE185C-2DE7-48F6-8A8D-25312E1E12C4}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 80
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 80
+		$3.scope = text/plain
+	EndGlobalSection
+EndGlobal
